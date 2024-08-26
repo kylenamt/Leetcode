@@ -5,7 +5,7 @@ function twoSum(nums: number[], target: number): number[] {
     if (val != null) {
       return [val, i];
     }
-    container.set(target - nums[i], i); // directly set the number to be found, optimize runtime
+    container.set(target - nums[i], i); // directly set the number to be found
   }
   return [0, 0];
 }
